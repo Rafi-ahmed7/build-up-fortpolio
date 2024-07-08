@@ -8,6 +8,20 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.header {
+
+    background-image:url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin: 50px 200px;
+}
 nav ul a{
     text-decoration: none;
 }
@@ -17,12 +31,7 @@ nav ul{
     list-style: none;
     align-items: center;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   margin: 50px 200px;
-}
+
 nav ul li{
     margin-right: 50px;
     list-style: none;
@@ -49,3 +58,33 @@ color: #FD6E0A;
     border: none;
     
 }
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-grettings{
+
+    font-size:45px;
+    font-weight:600;
+
+}
+.banner-tittle{
+
+    font-weight: bold;
+    font-size: 85px;
+}
+.dark-three{
+    color: #757575;
+    font-size: 18px;
+}
+.banner-profile-picture{
+
+    width:585px ;
+}
+
